@@ -2,7 +2,6 @@
 const readline = require('readline');
 const fs = require('fs');
 const moment = require('moment');
-const { type } = require('os');
 
 const rl = readline.createInterface({
     input: process.stdin,
