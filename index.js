@@ -1,10 +1,11 @@
-import fs from "node:fs";
+/* eslint-disable no-unused-vars */
+import fs from "node:fs"
 import readline from "node:readline";
 import moment from "moment";
 
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout,
+    output: process.stdout
 });
 
 // Membuat program convert tanggal dari input dd--mm--yyyy menjadi dd/mm/yyyy
