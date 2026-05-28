@@ -10,7 +10,9 @@
 		"start": "node index.js",
 		"dev": "node --watch index.js",
 		"lint": "eslint index.js",
-		"lint:fix": "eslint index.js --fix"
+		"lint:fix": "eslint index.js --fix",
+		"test": "node --test",
+		"test:coverage": "node --test --experimental-test-coverage"
 	},
 	"dependencies": {
 		"moment": "^2.30.1"
